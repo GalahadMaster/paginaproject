@@ -1,0 +1,146 @@
+/* Para los espacios predefinidos */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* Estilos del nav */
+.containernav{
+    background-color: rgb(112, 112, 228);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    
+}
+.ancho{
+    /* Ancho */
+width: 90%;
+/* Alto */
+height: 90px;
+/* centrar caja */
+margin: auto;
+display: flex;
+
+
+/* background-color: blueviolet; */
+}
+.loguito{
+    width: 17%;
+    height: 90px;
+    /* background-color: rgb(241, 0, 48); */
+    text-align: center;
+    
+    /* Acomodar elemento a la izquierda */
+ 
+}
+.loguito .nombre{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.loguito .nombre:hover{
+    color: darkslategray;
+    font-family: 'Raleway', sans-serif;
+
+}
+.loguito .descrp{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.options{
+    /* text-align: center; */
+    
+    
+   
+   padding-top: 18px;
+    width: 55%;
+    height: 90px;
+    text-align: center;
+}
+.options ul li{
+    list-style-type: none; 
+    display: inline;
+}
+
+.options ul li a{
+    
+   
+    width: 5em;
+    margin-right: 10px;
+    padding: 4px;
+    font-size: 15px;
+    color: #ffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+.options ul li a:hover{
+    color: darkslategray;
+}
+
+
+.redes{
+    width: 35%;
+    height: 90px;
+    display: inline;
+    /* flex-direction: row-reverse; */
+    /* background-color: rgb(255, 255, 255); */
+    align-items: center;
+    /* background-color:darkorange; */
+    padding-left: 8%;
+
+}
+.redes img{
+    /* width: 45%;
+    height: 45%;
+     */
+     width: 4em;
+
+     margin-right: 10px;
+     padding-top: 14px;
+     
+}
+.redes .imgig{
+         width: 3em;
+         margin-right: 10px;
+     /* padding-top: 14px; */
+     /* margin-bottom: 10; */
+     padding-bottom: 8px;
+     padding-top: 12px;
+
+}
+.deployedmenu{
+    
+    width: 10%;
+    height: 90px;
+
+
+}
+.deployedmenu img{
+    padding-top: 9px;
+    float: right;
+}
+
+
+
+ 
+
+.submenu{
+    display: block;
+    background-color: darkturquoise;
+    padding-top: auto;
+    margin: 0%;
+}
+
+
